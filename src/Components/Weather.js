@@ -49,7 +49,7 @@ export default function Weather(props) {
                                 onChange={handleCityChange}
                             />
                         </div>
-                        <div className="col-3">
+                        <div>
                             <input
                                 type="submit"
                                 value="Search"
