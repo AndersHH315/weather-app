@@ -6,7 +6,7 @@ export default function WeatherDetails(props) {
         <div>
             <h3>{props.data.city}</h3>
 
-            <div>
+            <div className="weather-box">
                 <div>
                     <div >
                         <div >
