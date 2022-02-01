@@ -43,6 +43,7 @@ export default function Weather(props) {
                     <div>
                         <div>
                             <input
+                                className="search-bar"
                                 type="search"
                                 placeholder="Search city"
                                 autoFocus="on"
@@ -51,6 +52,7 @@ export default function Weather(props) {
                         </div>
                         <div className="col-3">
                             <input
+                                className="weather-button"
                                 type="submit"
                                 value="Search"
                             />
